@@ -15,7 +15,7 @@ class CastOptionsProvider extends java.lang.Object {
     const appId = Utils.ad.getApplication().getString(appStringId);
 
     const notificationOptions = new com.google.android.gms.cast.framework.media.NotificationOptions.Builder()
-      .setTargetActivityClassName('org.nativescript.cast.CastActivity')
+      .setTargetActivityClassName('org.nativescript.cast.ExpandedControlsActivity')
       .build();
     const mediaOptions = new com.google.android.gms.cast.framework.media.CastMediaOptions.Builder()
       .setNotificationOptions(notificationOptions)
